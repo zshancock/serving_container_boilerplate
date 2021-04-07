@@ -15,7 +15,7 @@ The container is exposed on port 8000, start with:
 ```sh
 make serving.run
 ```
-Then in a new terminal, use the service. First, examine the `\health` route to ensure container is running properly:
+Then in a new terminal, use the service. First, examine the `health` route to ensure container is running properly:
 ```sh
 curl http://0.0.0.0:8000/health
 ```
